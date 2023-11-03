@@ -7,3 +7,12 @@
   position: absolute;
   top: -9999px;
 }
+
+.itemsCustomStyle {
+  position: relative !important;
+}
+
+.dragging {
+  transform: translateX(0);
+  transition: transform 10s ease-out;
+}
